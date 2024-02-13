@@ -21,7 +21,7 @@ async function run() {
 
     console.time("ScriptRunTime");
     const browser = await puppeteer.launch({
-        headless: false, // Set to true to run headless
+        headless: true, // Set to true to run headless
         defaultViewport: null
     });
 
